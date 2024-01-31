@@ -5,21 +5,20 @@
 
     <div class="big-card__photo">
       <img
-       src="https://flowgames.gg/wp-content/uploads/2024/01/Palworld-78b9d23447dfeeed5fb7.jpg"
-       height="250px"
-
-       alt="main-news"
-       >
+      [src]="photoCover"
+      height="250px"
+      alt="main-news"
+    />
     </div>
 
     <div class="big-card__title">
-      <h1><a href="">Seja bem vindo a sua jornado no mundo de Palworld</a></h1>
+      <h1><a href="">{{ cardTitle }}d</a></h1>
     </div>
 
     <div class="big-card__descript">
       <p>
         <a href="">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, commodi? Nostrum, fugit accusamus maiores vel incidunt porro obcaecati a corrupti, laborum, voluptatum voluptate enim blanditiis fugiat. Illum officiis dolore sit?
+         {{ cardDescription }}
         </a>
       </p>
     </div>
