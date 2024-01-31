@@ -5,13 +5,13 @@
   <div class="container__small-card-content">
 
     <div class="small-card__photo">
-      <img 
+      <img
       [src]="photoCover"
       alt="Other bnews">
     </div>
-    
+
     <div class="small-card__title">
-        <h1><a href="">
+        <h1><a [routerLink]="['content', Id]">
             {{ cardTitle }}
         </a></h1>
     </div>
